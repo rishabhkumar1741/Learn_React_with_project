@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import ProtoTypes from 'prop-types'; 
 
 
-export default function Navbar() {
+export default function Navbar({logoname}) {
   const [show, setShow] = useState(false);
   function btnfn(e)
   {
@@ -27,7 +28,7 @@ export default function Navbar() {
               d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
             />
           </svg>
-          <span className="font-bold">Snipe</span>
+          <span className="font-bold">{logoname}</span>
         </div>
         <div className="hidden md:flex items-center space-x-11 pr-20 sm:">
           <a className=" hover:bg-gray-400 p-2 rounded-lg"  href="#">Home</a>
@@ -50,4 +51,12 @@ export default function Navbar() {
         </div>
     </nav>
   );
+}
+
+Navbar.protoType = {
+  logoname:ProtoTypes.string.isRequired
+}
+
+Navbar.defaultProps = {
+  logoname :"Logo"
 }
