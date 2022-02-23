@@ -1,6 +1,7 @@
 # Learn React with the help of project
 
 step-step learning  
+I want to give credit to Haris Khan (Harris Khan) for the information he share on internet and i learn a lot from that 
 
 ## Available Scripts
 
@@ -19,4 +20,5 @@ Javascript, HTML, CSS...
 
 - learn basic file file structure (my first commit)
 - understanding props , proptypes and defaultpros
+- state and handling event
 - 
