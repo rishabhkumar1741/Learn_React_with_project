@@ -1,0 +1,80 @@
+.card {
+    width: 25rem;
+    border: 100px sloid rgb(255, 4, 4);
+    border-radius: 10px;
+    background-color: black;
+    margin-top:15px ;
+}
+.card-image-container{
+    border-radius: 10px;
+}
+.card-image-container>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card_name>h1{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: white;
+}
+.card_name>p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.card_name>small{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.card_button{
+    display: flex;
+    justify-content: space-between;
+}
+.card_button>button{
+padding: 5px;
+border-radius: 10px;
+width: 10rem;
+}
+
+.card_button_email{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.card_button_linkedin{
+    margin-right: 2rem;
+    color: white;
+    background-color: rgb(56, 168, 254);
+    font-weight: bold;
+}
+.card_about{
+    padding-left:  2rem ;
+    padding-right: 2rem;
+    padding-top:1rem ;
+}
+.card_about>h5{
+    color: white;
+    font-weight: bold;
+}
+.card_about>p{
+    color: white;
+}
+.card_interacte{
+    padding-left:  2rem ;
+    padding-right: 2rem;
+    
+
+}
+
+.card_interacte>h5{
+    color: white;
+    font-weight: bold;
+}
+.card_interacte>p{
+    color: white;
+}
