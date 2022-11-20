@@ -1,0 +1,12 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 45%) 0px 20px 15px -20px;
+    
+}
+
+.nav-bar >h4{
+    color: rgb(62, 160, 225);
+    
+
+}

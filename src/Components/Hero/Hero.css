@@ -1,0 +1,22 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+section > img{
+    width: 100%;
+    align-self: center;
+    /* height:600px ; */
+}
+
+.hero-h1{
+    padding-left: 40px;
+    font-size: bold;
+    color: #26bfeb;
+}
+.hero-p1{
+    padding-left: 40px;
+   
+    
+}
